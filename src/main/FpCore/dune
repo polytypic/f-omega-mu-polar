@@ -1,0 +1,3 @@
+(library
+ (name FpCore)
+ (libraries StdlibPlus bignum))
