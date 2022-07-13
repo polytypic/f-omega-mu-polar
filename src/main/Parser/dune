@@ -1,0 +1,14 @@
+(library
+ (name Parser)
+ (libraries Languages StdlibPlus menhirLib sedlex)
+ (preprocess
+  (pps sedlex.ppx)))
+
+(menhir
+ (modules Grammar)
+ (flags --no-dollars
+   --unused-token Comment
+   --unused-token Escape
+   --unused-token TstrStrPart
+   --unused-token IdDollar
+   --unused-token IdSub))

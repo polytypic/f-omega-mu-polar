@@ -1,0 +1,3 @@
+[submodule "dep/StdlibPlus"]
+	path = dep/StdlibPlus
+	url = https://github.com/polytypic/StdlibPlus.git

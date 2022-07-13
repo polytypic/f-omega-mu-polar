@@ -1,0 +1,3 @@
+(test
+ (name ParserTest)
+ (libraries Parser MuTest))
